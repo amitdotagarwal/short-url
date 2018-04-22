@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple Rails application to short big urls and to generate impressions.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Demo application is application available on http://short-url-application.herokuapp.com/
+Api List is available at 
+http://short-url-application.herokuapp.com/shortened/<short_url>.json
+For example, http://short-url-application.herokuapp.com/shortened/gPNIyO.json
