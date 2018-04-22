@@ -1,0 +1,28 @@
+/* -------------------------------------
+ * CSS code specific to home page
+ * (margin/padding adjustments)
+ * ------------------------------------- */
+
+
+html, body {
+    height: 100%;
+}
+body {
+    margin:0px;
+    padding: 0px;
+    color: $main-font-color;
+}
+.wrap {
+  height: auto;
+  margin: 0 auto -6em; /* footer height + space */
+  min-height: 100%;
+  padding: 0 0 6em; /* footer height + space */
+  box-sizing: border-box;
+  overflow: auto;
+}
+
+.main-card {
+  h2,h4 {
+    margin-bottom: 1em;
+  }
+}
